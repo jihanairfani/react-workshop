@@ -3,7 +3,7 @@ import './App.css'
 import { ContributorT } from './types';
 import Contributors from './Contributors'
 import React, { FC } from 'react';
-import { Card, Search, Input, Skeleton, BackTop } from 'antd';
+import { Card, Input, Skeleton, BackTop } from 'antd';
 import 'antd/dist/antd.css';
 import { Header } from 'antd/lib/layout/layout';
 import renderEmpty from 'antd/lib/config-provider/renderEmpty';
@@ -30,8 +30,9 @@ function App() {
       console.error(error);
     }
   }
-
-  function onSearch(e : Search){
+  
+  // @ts-ignore
+  function onSearch(e){
     setSearch(e.target.value);
     
   }
