@@ -35,8 +35,8 @@
 header {
   /* padding: 20px; */
   font-family: 'Poppins', sans-serif;
-  font-size: x-large;
-  color:darkslategray;
+  font-size: xx-large;
+  color:white;
   text-align: center;
   grid-area: header;
 }
@@ -48,8 +48,8 @@ header {
 
 .container {
   padding: 60px;
-  height: 200vh;
-  background-image: linear-gradient(to right, #d5d0e5, #f3e6e8);
+  height: 220vh;
+  background-image: linear-gradient(to right, #2b5876, #4e4376);
 }
 
 
